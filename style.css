@@ -4,10 +4,26 @@ section {
     border: solid rgb(255, 255, 255) 1px;
 }
 .hero {
-    background-color: aqua;
+    background-color: #040404;
     height: 100vh;
+    color: white;
+    font-size: 40px;
 }
 footer {
     height: 500px;
     background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+li {
+    text-decoration: none;
 }
