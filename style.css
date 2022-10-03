@@ -1,6 +1,13 @@
-body {
-    background: blue;
+section {
+    height: 500px;
+    background-color: rgb(25, 36, 124);
+    border: solid rgb(255, 255, 255) 1px;
 }
-h1 {
-    color: red
+.hero {
+    background-color: aqua;
+    height: 100vh;
+}
+footer {
+    height: 500px;
+    background-color: black;
 }
