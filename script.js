@@ -1,4 +1,8 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const hamburgerButton = document.getElementById('hamburger');
+const navList = document.getElementById('nav-list');
 
-document.querySelector("body").appendChild(h2);
+function toggleButton() {
+    navList.classList.toggle('show');
+}
+
+hamburgerButton.addEventListener('click', toggleButton);
