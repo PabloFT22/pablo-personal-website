@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #040404;
 }
 
 section {
@@ -20,13 +21,9 @@ footer {
     text-align: center;
 }
 
-.logo {
-    display: none;
-}
-
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
 ul {
@@ -71,6 +68,10 @@ p {
 .hero-text {
     margin-left: 80px;
     margin-bottom: 200px;
+}
+
+.hero-title {
+    color: #2af0ea
 }
 
 .button {
@@ -209,4 +210,20 @@ a {
     .logo {
         display: none;
     }
+}
+
+#contact-me h2 {
+    color: #2af0ea;
+}
+
+#nav-list a {
+    color: #397684;
+}
+
+.project-card h3 {
+    color: #397684;
+}
+
+.project-card p {
+    font-size: 18px;
 }
